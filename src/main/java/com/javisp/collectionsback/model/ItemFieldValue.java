@@ -26,6 +26,6 @@ public class ItemFieldValue {
     @JoinColumn(name = "field_id", nullable = false)
     private CollectionField field;
     
-    @Column(length = 2000)
+    @Column(name = "field_value", length = 2000)
     private String value;
 }
